@@ -1,0 +1,40 @@
+﻿@page "/{name}/{project}"
+<nav>
+   <ul>
+       <li><h3>Files :   .md</h3></li>
+        @if(ActiveCRI.Files != null)
+        {
+            @foreach (CRI file in ActiveCRI.Files)
+            {
+             <li><button onclick="@(async () => await FillCRIContent(@file.Path))">@file.Label </button></li>
+            }
+        }
+    </ul>
+</nav>
+
+<section class="info">
+    <div class="info-title">
+        <div>
+            <h2>User Name: <span> @name </span> </h2>
+            <h2>Repository Name: <span> @project </span></h2>
+        </div>
+        <div>
+            <img src="/img/user.png"  />
+        </div>
+    </div>
+    <div class="info-desc">
+        
+     @if (ActiveFile != null)
+         {
+            @if (ActiveFile.Content == null)
+            {
+                <p>loading content...</p>
+            }
+            else
+            {
+                @HTMLcontents            
+            }
+        }
+
+    </div>
+</section>
