@@ -1,0 +1,7 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/AngryCRI/v17
+/.vs/CRI_V1
+/CRI_V1/obj/Debug/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs
