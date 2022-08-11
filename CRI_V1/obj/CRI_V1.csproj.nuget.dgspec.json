@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\USER\\Source\\Repos\\AngryCRI\\CRI_V1\\CRI_V1.csproj": {}
+    "D:\\work\\CRI_V2\\CRI_V1\\CRI_V1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\USER\\Source\\Repos\\AngryCRI\\CRI_V1\\CRI_V1.csproj": {
+    "D:\\work\\CRI_V2\\CRI_V1\\CRI_V1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\USER\\Source\\Repos\\AngryCRI\\CRI_V1\\CRI_V1.csproj",
+        "projectUniqueName": "D:\\work\\CRI_V2\\CRI_V1\\CRI_V1.csproj",
         "projectName": "CRI_V1",
-        "projectPath": "C:\\Users\\USER\\Source\\Repos\\AngryCRI\\CRI_V1\\CRI_V1.csproj",
-        "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\USER\\Source\\Repos\\AngryCRI\\CRI_V1\\obj\\",
+        "projectPath": "D:\\work\\CRI_V2\\CRI_V1\\CRI_V1.csproj",
+        "packagesPath": "C:\\Users\\Wissam FARHAT\\.nuget\\packages\\",
+        "outputPath": "D:\\work\\CRI_V2\\CRI_V1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Wissam FARHAT\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,7 +22,8 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Users\\USER\\Angry Monkey\\Lebanon - Documents\\General\\Nuget\\Angry Monkey": {},
+          "D:\\work_1\\Angry Monkey\\Lebanon - Documents\\General\\Nuget\\Angry Monkey": {},
+          "D:\\work_1\\Angry Monkey\\Lebanon - Documents\\General\\Nuget\\Coverbox": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -68,7 +69,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     }
