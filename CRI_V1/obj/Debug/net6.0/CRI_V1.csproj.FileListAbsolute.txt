@@ -25,3 +25,14 @@ D:\work\CRI_V1\CRI_V1\obj\Debug\net6.0\refint\CRI_V1.dll
 D:\work\CRI_V1\CRI_V1\obj\Debug\net6.0\CRI_V1.pdb
 D:\work\CRI_V1\CRI_V1\obj\Debug\net6.0\CRI_V1.genruntimeconfig.cache
 D:\work\CRI_V1\CRI_V1\obj\Debug\net6.0\ref\CRI_V1.dll
+C:\Users\USER\Source\Repos\AngryCRI\CRI_V1\obj\Debug\net6.0\CRI_V1.csproj.AssemblyReference.cache
+C:\Users\USER\Source\Repos\AngryCRI\CRI_V1\obj\Debug\net6.0\CRI_V1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USER\Source\Repos\AngryCRI\CRI_V1\obj\Debug\net6.0\CRI_V1.AssemblyInfoInputs.cache
+C:\Users\USER\Source\Repos\AngryCRI\CRI_V1\obj\Debug\net6.0\CRI_V1.AssemblyInfo.cs
+C:\Users\USER\Source\Repos\AngryCRI\CRI_V1\obj\Debug\net6.0\CRI_V1.csproj.CoreCompileInputs.cache
+C:\Users\USER\Source\Repos\AngryCRI\CRI_V1\obj\Debug\net6.0\CRI_V1.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\USER\Source\Repos\AngryCRI\CRI_V1\obj\Debug\net6.0\CRI_V1.RazorAssemblyInfo.cache
+C:\Users\USER\Source\Repos\AngryCRI\CRI_V1\obj\Debug\net6.0\CRI_V1.RazorAssemblyInfo.cs
+C:\Users\USER\Source\Repos\AngryCRI\CRI_V1\obj\Debug\net6.0\CRI_V1.dll
+C:\Users\USER\Source\Repos\AngryCRI\CRI_V1\obj\Debug\net6.0\refint\CRI_V1.dll
+C:\Users\USER\Source\Repos\AngryCRI\CRI_V1\obj\Debug\net6.0\CRI_V1.pdb
