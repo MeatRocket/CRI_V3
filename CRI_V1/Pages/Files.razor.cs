@@ -12,6 +12,7 @@ namespace CRI_V1.Pages
         [Parameter]
         public string project { get; set; }
 
+
         private MarkupString HTMLcontents;
         private static readonly HttpClient httpClient = new();
         public CRIFile ActiveFile { get; set; }
@@ -19,6 +20,8 @@ namespace CRI_V1.Pages
 
         public static String repositoryName;
         public static String repositoryproject;
+        public bool show = false;
+
 
         protected override async Task OnInitializedAsync()
         {
@@ -30,7 +33,7 @@ namespace CRI_V1.Pages
         }
         public async Task TestAsync()
         {
-            await GetFilesFromCRI(GenerateFileUrl("/.cri.json"));
+            await GetFilesFromCRI(GenerateFileUrl("/.criconfig.json"));
 
 
         }
@@ -59,7 +62,7 @@ namespace CRI_V1.Pages
             return await httpClient.GetStringAsync(url);
         }
 
-       
+
         public async Task<string> FillCRIContent(String path)
         {
             ActiveFile = ActiveCRI.Files.First(key => key.Path.Equals(path, StringComparison.OrdinalIgnoreCase));
