@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\USER\\Desktop\\CRI_V2 - Copy\\CRI_V1\\CRI_V1.csproj": {}
+    "C:\\Users\\USER\\source\\repos\\CRI_V3\\CRI_V1\\CRI_V1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\USER\\Desktop\\CRI_V2 - Copy\\CRI_V1\\CRI_V1.csproj": {
+    "C:\\Users\\USER\\source\\repos\\CRI_V3\\CRI_V1\\CRI_V1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\USER\\Desktop\\CRI_V2 - Copy\\CRI_V1\\CRI_V1.csproj",
+        "projectUniqueName": "C:\\Users\\USER\\source\\repos\\CRI_V3\\CRI_V1\\CRI_V1.csproj",
         "projectName": "CRI_V1",
-        "projectPath": "C:\\Users\\USER\\Desktop\\CRI_V2 - Copy\\CRI_V1\\CRI_V1.csproj",
+        "projectPath": "C:\\Users\\USER\\source\\repos\\CRI_V3\\CRI_V1\\CRI_V1.csproj",
         "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\USER\\Desktop\\CRI_V2 - Copy\\CRI_V1\\obj\\",
+        "outputPath": "C:\\Users\\USER\\source\\repos\\CRI_V3\\CRI_V1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
