@@ -6,14 +6,14 @@ namespace CRI_V1.Data
     public class CRIModel
     {
         [DataContract]
-        public class CRITab
+        public class Tabs
         {
             [DataMember]
-            public string TabTitle;
+            public string Title;
             [DataMember]
-            public List<string> Paths;
+            public List<string> Path;
             [DataMember]
-            public List<CRITab> SubTabs;
+            public List<Tabs> SubTabs;
             [DataMember]
             public List<string> Contents = new();
         }
@@ -22,7 +22,7 @@ namespace CRI_V1.Data
         public class CRITabList
         {
             [DataMember]
-            public List<CRITab> Tabs { get; set; } = new();
+            public List<Tabs> Tabs { get; set; } = new();
         }
     }
 }

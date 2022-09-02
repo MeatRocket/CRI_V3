@@ -19,8 +19,8 @@ namespace CRI_V1.Pages
         public static String repositoryproject;
         public static Boolean show = false ;
         public static CRITabList CRIList { get; set; } = new();
-        public CRITab ActiveTab { get; set; } = new();
-        public static List<CRITab> Tabs { get; set; } = new();
+        public CRIModel.Tabs ActiveTab { get; set; } = new();
+        public static List<CRIModel.Tabs> Tabs { get; set; } = new();
         private List<MarkupString> MarkupContents = new();
 
         protected override async Task OnInitializedAsync()
@@ -32,7 +32,7 @@ namespace CRI_V1.Pages
         public async Task TestAsync()
         {
             //await GetFilesFromCRI(GenerateFileUrl("/.criconfig.json"));
-            await GetFilesFromCRI(GenerateFileUrl("/.cridemoconfig.json"));
+            await GetFilesFromCRI(GenerateFileUrl("/.criconfig.json"));
         }
 
         private static string GenerateFileUrl(string filePath)
@@ -57,7 +57,7 @@ namespace CRI_V1.Pages
 
         public async Task FillCRIContent(List<string> Paths)
         {
-            ActiveTab = CRIList.Tabs.First(key => key.Paths == Paths);
+            ActiveTab = CRIList.Tabs.First(key => key.Path == Paths);
             //filling contents if they arent filled
             if (ActiveTab.Contents.Count == 0)
                 foreach (string path in Paths)

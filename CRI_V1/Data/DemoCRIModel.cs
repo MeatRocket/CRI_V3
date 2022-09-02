@@ -4,15 +4,14 @@ using System.Runtime.Serialization;
 namespace CRI_V1.Data
 {
     [DataContract]
-    public class DemoTabModel
+    public class Tabs
     {
         [DataMember]
-        public string FileTitle;
+        public string Title;
         [DataMember]
-        public List<string> Paths;
+        public List<string> Path;
         [DataMember]
-        public List<DemoTabModel> SubFiles;
-        [DataMember]
+        public List<Tabs> SubFiles;
         public List<string> Contents = new();
     }
 
@@ -20,6 +19,6 @@ namespace CRI_V1.Data
     public class DemoCRIList
     {
         [DataMember]
-        public List<DemoTabModel> FileTabs { get; set; } = new();
+        public List<Tabs> FileTabs { get; set; } = new();
     }
 }

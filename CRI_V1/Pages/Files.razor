@@ -15,9 +15,9 @@
             <ul>
                 @if (CRIList.Tabs != null)
                 {
-                    @foreach (CRITab Tab in CRIList.Tabs)
+                    @foreach (CRIModel.Tabs Tab in CRIList.Tabs)
                     {
-                        <li><button onclick="@(async () => await FillCRIContent(Tab.Paths))">@Tab.TabTitle </button></li>
+                        <li><button onclick="@(async () => await FillCRIContent(Tab.Path))">@Tab.Title </button></li>
                     }
                 }
             </ul>
@@ -41,7 +41,7 @@
         @if (ActiveTab != null)
         {
             <div class="info-file">
-                <h1 class="--title">@ActiveTab.TabTitle</h1>
+                <h1 class="--title">@ActiveTab.Title</h1>
                 <h4>Last Update: 18/02/2022</h4>
             </div>
             <div class="info-desc">
